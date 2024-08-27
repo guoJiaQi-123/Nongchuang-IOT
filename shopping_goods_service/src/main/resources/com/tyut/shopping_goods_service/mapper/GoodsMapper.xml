@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tyut.shopping_goods_service.mapper.GoodsMapper">
+
+    <insert id="addGoodsSpecificationOption">
+        INSERT INTO bz_goods_specification_option
+        VALUES (#{gid}, #{optionId})
+    </insert>
+    <delete id="deleteOption">
+        delete
+        from bz_goods_specification_option
+        where gid = #{goodsId}
+    </delete>
+
+
+    <resultMap id="goodsMapper" type="com.tyut.shopping_common.pojo.Goods">
+        <id property="id" column="bid"/>
+        <result property="goodsName" column="goodsName"/>
+        <result property="caption" column="caption"/>
+        <result property="price" column="price"/>
+        <result property="headerPic" column="headerPic"/>
+        <result property="isMarketable" column="isMarketable"/>
+        <result property="brandId" column="brandId"/>
+        <result property="productType1Id" column="productType1Id"/>
+        <result property="productType2Id" column="productType2Id"/>
+        <result property="productType3Id" column="productType3Id"/>
+        <result property="introduction" column="introduction"/>
+        <collection property="images" column="bid" ofType="com.tyut.shopping_common.pojo.GoodsImage">
+            <id property="id" column="imageId"/>
+            <result property="imageTitle" column="imageTitle"/>
+            <result property="imageUrl" column="imageUrl"/>
+        </collection>
+        <collection property="specifications" column="bid" ofType="com.tyut.shopping_common.pojo.Specification">
+            <id property="id" column="specificationId"/>
+            <result property="specName" column="specName"/>
+            <result property="productTypeId" column="productTypeId"/>
+            <collection property="specificationOptions" column="specificationId"
+                        ofType="com.tyut.shopping_common.pojo.SpecificationOption">
+                <id property="id" column="optionId"/>
+                <result property="optionName" column="optionName"/>
+            </collection>
+        </collection>
+    </resultMap>
+
+
+    <select id="findById" resultMap="goodsMapper">
+        SELECT bz_goods.`id`                        as bid,
+               bz_goods.`goodsName`                 as goodsName,
+               bz_goods.`caption`                   as caption,
+               bz_goods.`price`                     as price,
+               bz_goods.`headerPic`                 as headerPic,
+               bz_goods.`introduction`              as introduction,
+               bz_goods.`isMarketable`              as isMarketable,
+               bz_goods.`brandId`                   as brandId,
+               bz_goods.`productType1Id`            as productType1Id,
+               bz_goods.`productType2Id`            as productType2Id,
+               bz_goods.`productType3Id`            as productType3Id,
+               bz_goods_image.`id`                  as imageId,
+               bz_goods_image.`imageTitle`          as imageTitle,
+               bz_goods_image.`imageUrl`            as imageUrl,
+               bz_specification.`id`                as specificationId,
+               bz_specification.`specName`          as specName,
+               bz_specification.`productTypeId`     as productTypeId,
+               bz_specification_option.`id`         as optionId,
+               bz_specification_option.`optionName` as optionName
+        FROM bz_goods,
+             bz_goods_specification_option,
+             bz_specification_option,
+             bz_specification,
+             bz_goods_image
+        WHERE bz_goods.`id` = bz_goods_specification_option.`gid`
+          AND bz_goods_specification_option.`optionId` = bz_specification_option.`id`
+          AND bz_specification.`id` = bz_specification_option.`specId`
+          AND bz_goods.`id` = bz_goods_image.`goodsId`
+          AND bz_goods.id = #{gid}
+    </select>
+
+    <!--查询所有商品详情-->
+    <resultMap id="goodsDescMapper" type="com.tyut.shopping_common.pojo.GoodsDesc">
+        <id property="id" column="bid"/>
+        <result property="goodsName" column="goodsName"/>
+        <result property="caption" column="caption"/>
+        <result property="price" column="price"/>
+        <result property="headerPic" column="headerPic"/>
+        <result property="isMarketable" column="isMarketable"/>
+        <result property="introduction" column="introduction"/>
+        <association property="brand" column="brandId" javaType="com.tyut.shopping_common.pojo.Brand">
+            <id property="id" column="brandId"/>
+            <result property="name" column="brandName"/>
+        </association>
+        <association property="productType1" column="type1Id" javaType="com.tyut.shopping_common.pojo.ProductType">
+            <id property="id" column="type1Id"/>
+            <result property="name" column="type1Name"/>
+            <result property="level" column="type1Level"/>
+            <result property="parentId" column="type1ParentId"/>
+        </association>
+        <association property="productType2" column="type2Id" javaType="com.tyut.shopping_common.pojo.ProductType">
+            <id property="id" column="type2Id"/>
+            <result property="name" column="type2Name"/>
+            <result property="level" column="type2Level"/>
+            <result property="parentId" column="type2ParentId"/>
+        </association>
+        <association property="productType3" column="type3Id" javaType="com.tyut.shopping_common.pojo.ProductType">
+            <id property="id" column="type3Id"/>
+            <result property="name" column="type3Name"/>
+            <result property="level" column="type3Level"/>
+            <result property="parentId" column="type3ParentId"/>
+        </association>
+        <collection property="images" column="bid" ofType="com.tyut.shopping_common.pojo.GoodsImage">
+            <id property="id" column="imageId"/>
+            <result property="imageTitle" column="imageTitle"/>
+            <result property="imageUrl" column="imageUrl"/>
+        </collection>
+        <collection property="specifications" column="bid" ofType="com.tyut.shopping_common.pojo.Specification">
+            <id property="id" column="specificationId"/>
+            <result property="specName" column="specName"/>
+            <result property="productTypeId" column="productTypeId"/>
+            <collection property="specificationOptions" column="specificationId"
+                        ofType="com.tyut.shopping_common.pojo.SpecificationOption">
+                <id property="id" column="optionId"/>
+                <result property="optionName" column="optionName"/>
+            </collection>
+        </collection>
+    </resultMap>
+
+
+    <select id="findGoodsDescById" resultMap="goodsDescMapper">
+        SELECT bz_goods.id                        as bid,
+               bz_goods.goodsName                 as goodsName,
+               bz_goods.caption                   as caption,
+               bz_goods.price                     as price,
+               bz_goods.headerPic                 as headerPic,
+               bz_goods.introduction              as introduction,
+               bz_goods.isMarketable              as isMarketable,
+               bz_goods.brandId                   as brandId,
+               bz_brand.`name`                    as brandName,
+               type1.id                           as type1Id,
+               type1.`name`                       as type1Name,
+               type1.`level`                      as type1Level,
+               type1.parentId                     as type1ParentId,
+               type2.id                           as type2Id,
+               type2.`name`                       as type2Name,
+               type2.`level`                      as type2Level,
+               type2.parentId                     as type2ParentId,
+               type3.id                           as type3Id,
+               type3.`name`                       as type3Name,
+               type3.`level`                      as type3Level,
+               type3.parentId                     as type3ParentId,
+               bz_goods_image.id                  as imageId,
+               bz_goods_image.imageTitle          as imageTitle,
+               bz_goods_image.imageUrl            as imageUrl,
+               bz_specification.id                as specificationId,
+               bz_specification.specName          as specName,
+               bz_specification.productTypeId     as productTypeId,
+               bz_specification_option.id         as optionId,
+               bz_specification_option.optionName as optionName
+        FROM bz_goods,
+             bz_goods_image,
+             bz_brand,
+             bz_specification,
+             bz_specification_option,
+             bz_goods_specification_option,
+             bz_product_type AS type1,
+             bz_product_type AS type2,
+             bz_product_type AS type3
+        WHERE bz_goods.id = bz_goods_specification_option.gid
+          AND bz_goods_specification_option.optionId = bz_specification_option.id
+          AND bz_specification.id = bz_specification_option.specId
+          AND bz_goods.brandId = bz_brand.id
+          AND bz_goods.id = bz_goods_image.goodsId
+          AND bz_goods.productType1Id = type1.id
+          AND bz_goods.productType2Id = type2.id
+          AND bz_goods.productType3Id = type3.id
+          AND bz_goods.id = #{id}
+    </select>
+
+    <select id="findAll" resultMap="goodsDescMapper">
+        SELECT bz_goods.id                        as bid,
+               bz_goods.goodsName                 as goodsName,
+               bz_goods.caption                   as caption,
+               bz_goods.price                     as price,
+               bz_goods.headerPic                 as headerPic,
+               bz_goods.introduction              as introduction,
+               bz_goods.isMarketable              as isMarketable,
+               bz_goods.brandId                   as brandId,
+               bz_brand.`name`                    as brandName,
+               type1.id                           as type1Id,
+               type1.`name`                       as type1Name,
+               type1.`level`                      as type1Level,
+               type1.parentId                     as type1ParentId,
+               type2.id                           as type2Id,
+               type2.`name`                       as type2Name,
+               type2.`level`                      as type2Level,
+               type2.parentId                     as type2ParentId,
+               type3.id                           as type3Id,
+               type3.`name`                       as type3Name,
+               type3.`level`                      as type3Level,
+               type3.parentId                     as type3ParentId,
+               bz_goods_image.id                  as imageId,
+               bz_goods_image.imageTitle          as imageTitle,
+               bz_goods_image.imageUrl            as imageUrl,
+               bz_specification.id                as specificationId,
+               bz_specification.specName          as specName,
+               bz_specification.productTypeId     as productTypeId,
+               bz_specification_option.id         as optionId,
+               bz_specification_option.optionName as optionName
+        FROM bz_goods,
+             bz_goods_image,
+             bz_brand,
+             bz_specification,
+             bz_specification_option,
+             bz_goods_specification_option,
+             bz_product_type AS type1,
+             bz_product_type AS type2,
+             bz_product_type AS type3
+        WHERE bz_goods.id = bz_goods_specification_option.gid
+          AND bz_goods_specification_option.optionId = bz_specification_option.id
+          AND bz_specification.id = bz_specification_option.specId
+          AND bz_goods.brandId = bz_brand.id
+          AND bz_goods.id = bz_goods_image.goodsId
+          AND bz_goods.productType1Id = type1.id
+          AND bz_goods.productType2Id = type2.id
+          AND bz_goods.productType3Id = type3.id
+    </select>
+</mapper>

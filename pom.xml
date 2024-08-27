@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.tyut</groupId>
+    <artifactId>shopping</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <!--子模块管理-->
+    <modules>
+        <!--通用子模块 包括实体类，工具类，服务接口-->
+        <module>shopping_common</module>
+        <!--商品服务-->
+        <module>shopping_goods_service</module>
+        <!--管理员端的api模块-->
+        <module>shopping_manager_api</module>
+        <!--管理员服务-->
+        <module>shopping_admin_service</module>
+        <!--文件系统服务-->
+        <module>shopping_file_service</module>
+        <!--广告服务模块-->
+        <module>shopping_category_service</module>
+        <!--用户端广告服务api模块-->
+        <module>shopping_category_customer_api</module>
+        <!--商品搜索服务-->
+        <module>shopping_search_service</module>
+        <!--用户端搜索服务api模块-->
+        <module>shopping_search_customer_api</module>
+        <!--短信服务-->
+        <module>shopping_message_service</module>
+        <!--商城用户-->
+        <module>shopping_user_service</module>
+        <!--商城用户api模块-->
+        <module>shopping_user_customer_api</module>
+        <!--购物车服务模块-->
+        <module>shopping_cart_service</module>
+        <!--购物车api模块-->
+        <module>shopping_cart_customer_api</module>
+        <!--订单服务模块-->
+        <module>shopping_order_service</module>
+        <!--订单服务api模块-->
+        <module>shopping_order_customer_api</module>
+        <!--支付服务模块-->
+        <module>shopping_pay_service</module>
+        <!--商品秒杀服务模块-->
+        <module>shopping_seckill_service</module>
+        <!--商品秒杀服务api模块-->
+        <module>shopping_seckill_customer_api</module>
+    </modules>
+
+    <properties>
+        <java.version>17</java.version>
+        <dubbo.version>3.2.4</dubbo.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <spring-boot.version>3.0.2</spring-boot.version>
+        <spring-cloud.version>2022.0.0</spring-cloud.version>
+        <spring-cloud-alibaba.version>2022.0.0.0</spring-cloud-alibaba.version>
+        <lombok.version>1.18.28</lombok.version>
+        <mybatis-plus.version>3.5.4</mybatis-plus.version>
+    </properties>
+    <!-- 依赖版本声明 -->
+    <dependencyManagement>
+        <dependencies>
+            <!-- Spring Cloud版本-->
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring-cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <!-- Spring Cloud Alibaba版本 -->
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                <version>${spring-cloud-alibaba.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <!-- SpringBoot版本 -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${spring-boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <!-- Dubbo版本 -->
+            <dependency>
+                <groupId>org.apache.dubbo</groupId>
+                <artifactId>dubbo-bom</artifactId>
+                <version>${dubbo.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <!-- lombok版本 -->
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
+            </dependency>
+
+            <!-- mybatis-plus版本 -->
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-boot-starter</artifactId>
+                <version>${mybatis-plus.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <!-- 通用依赖 -->
+    <dependencies>
+        <!-- bootstrap启动器 -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-bootstrap</artifactId>
+        </dependency>
+    </dependencies>
+
+    <!-- 插件 -->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
+                    <encoding>${project.build.sourceEncoding}</encoding>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <!-- 依赖仓库路径 -->
+    <repositories>
+        <repository>
+            <id>public</id>
+            <name>aliyun nexus</name>
+            <url>https://maven.aliyun.com/repository/public</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+        </repository>
+    </repositories>
+
+    <!-- 插件仓库路径 -->
+    <pluginRepositories>
+        <pluginRepository>
+            <id>public</id>
+            <name>aliyun nexus</name>
+            <url>https://maven.aliyun.com/repository/public</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </pluginRepository>
+    </pluginRepositories>
+
+
+</project>

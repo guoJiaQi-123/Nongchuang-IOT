@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tyut.shopping_admin_service.mapper.AdminMapper">
+
+    <insert id="updateRole">
+        insert into bz_admin_role values
+        <foreach collection="rids" item="rid" separator=",">
+            (#{aid},#{rid})
+        </foreach>
+    </insert>
+
+
+    <!--删除管理员的所有角色-->
+    <delete id="deleteAllRole" parameterType="long">
+        delete
+        from bz_admin_role
+        where aid = #{aid}
+    </delete>
+
+
+    <resultMap id="adminMapper" type="com.tyut.shopping_common.pojo.Admin">
+        <id property="aid" column="aid"/>
+        <result property="username" column="username"/>
+        <collection property="roles" column="aid" ofType="com.tyut.shopping_common.pojo.Role">
+            <id property="rid" column="rid"/>
+            <result property="roleName" column="roleName"/>
+            <result property="roleDesc" column="roleDesc"/>
+            <collection property="permissions" column="rid" ofType="com.tyut.shopping_common.pojo.Permission">
+                <id property="pid" column="pid"/>
+                <result property="permissionName" column="permissionName"/>
+                <result property="url" column="url"/>
+            </collection>
+        </collection>
+    </resultMap>
+    <select id="findById" parameterType="long" resultMap="adminMapper">
+        select *
+        from bz_admin
+                 left join bz_admin_role on bz_admin.aid = bz_admin_role.aid
+                 left join bz_role on bz_admin_role.rid = bz_role.rid
+                 left join bz_role_permission on bz_role.rid = bz_role_permission.rid
+                 left join bz_permission on bz_role_permission.pid = bz_permission.pid
+        where bz_admin.aid = #{aid}
+    </select>
+
+    <select id="findPermissionByAdminName" resultType="com.tyut.shopping_common.pojo.Permission">
+        select distinct bz_permission.*
+        from bz_admin
+                 left join bz_admin_role on bz_admin.aid = bz_admin_role.aid
+                 left join bz_role on bz_admin_role.rid = bz_role.rid
+                 left join bz_role_permission on bz_role.rid = bz_role_permission.rid
+                 left join bz_permission on bz_permission.pid = bz_role_permission.pid
+        where bz_admin.username = #{userName}
+    </select>
+
+
+</mapper>

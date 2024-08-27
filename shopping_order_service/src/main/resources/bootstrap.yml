@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    # 环境
+    active: dev
+  cloud:
+    nacos:
+      # 注册中心
+      config:
+        #注册中心地址
+        server-addr: 192.168.66.99:8848
+        #命名空间
+        namespace: b92b80fc-cde5-4e25-b96d-afa472ef0e02
+        # 文件名后缀
+        file-extension: yaml
+        #文件名
+        prefix: shopping_order_service

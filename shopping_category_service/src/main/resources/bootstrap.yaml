@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.168.66.99:8848
+        namespace: b92b80fc-cde5-4e25-b96d-afa472ef0e02
+        prefix: shopping_category_service
+        file-extension: yaml

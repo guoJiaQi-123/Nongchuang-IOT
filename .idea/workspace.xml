@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bbaf8364-64d5-4b62-b924-993ec34a3b31" name="更改" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="D:/Program Files/Lenovo/apache-maven-3.8.3" />
+        <option name="localRepository" value="E:\repository" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="D:\Program Files\Lenovo\apache-maven-3.8.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2hDyE37neW2C7ZeCU8cR8zAgH04" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="openDirectoriesWithSingleClick" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.ShoppingGoodsServiceApplicationTests.contextLoads.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.ShoppingGoodsServiceApplicationTests.testFindAllGoodsDesc2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ShoppingManagerApiApplicationTests.contextLoads.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.ShoppingMessageServiceApplicationTests.contextLoads.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.ShoppingSearchServiceApplicationTests.testAnalyze.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ShoppingSearchServiceApplicationTests.testSyncGoodsToES.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.shopping [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.shopping_admin_service [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.shopping_order_service [org.apache.maven.plugins:maven-clean-plugin:2.5:clean].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ShoppingAdminServiceApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.ShoppingCartCustomerApiApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.ShoppingCartServiceApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.ShoppingCategoryCustomerApiApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.ShoppingCategoryServiceApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.ShoppingFileServiceApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.ShoppingGoodsServiceApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.ShoppingManagerApiApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.ShoppingMessageServiceApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.ShoppingOrderCustomerApiApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.ShoppingOrderServiceApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.ShoppingPayServiceApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.ShoppingSearchCustomerApiApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.ShoppingSearchServiceApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.ShoppingSeckillCustomerApiApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.ShoppingSeckillServiceApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.ShoppingUserCustomerApiApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.ShoppingUserServiceApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;StatusDashboardGroupingRule&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/HX/IdeaProjects/shopping/shopping_seckill_customer_api/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;应用程序.GenerateJwtDemo.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.JwtUtils.executor&quot;: &quot;Run&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.tyut.shopping_goods_service.mapper" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HX\IdeaProjects\shopping\shopping_seckill_customer_api\src\main\resources" />
+      <recent name="C:\Users\HX\IdeaProjects\shopping\shopping_seckill_service\src\main\resources" />
+      <recent name="C:\Users\HX\IdeaProjects\shopping\shopping_order_service\src\main\resources" />
+      <recent name="C:\Users\HX\IdeaProjects\shopping\shopping_pay_service\src\main\resources" />
+      <recent name="C:\Users\HX\IdeaProjects\shopping\shopping_order_service\target\classes\com\tyut\shopping_order_service\mapper" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HX\IdeaProjects\shopping\shopping_order_service\src\main\resources\com\tyut\shopping_order_service\mapper" />
+      <recent name="C:\Users\HX\IdeaProjects\shopping\shopping_order_service\src\main\resources" />
+      <recent name="C:\Users\HX\IdeaProjects\shopping\shopping_admin_service\src\main\java\com\tyut\shopping_admin_service\mapper" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.ShoppingGoodsServiceApplicationTests.testFindAllGoodsDesc2">
+    <configuration name="ShoppingGoodsServiceApplicationTests.testFindAllGoodsDesc2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shopping_goods_service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tyut.shopping_goods_service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tyut.shopping_goods_service" />
+      <option name="MAIN_CLASS_NAME" value="com.tyut.shopping_goods_service.ShoppingGoodsServiceApplicationTests" />
+      <option name="METHOD_NAME" value="testFindAllGoodsDesc2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingSearchServiceApplicationTests.testAnalyze" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shopping_search_service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tyut.shopping_search_service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tyut.shopping_search_service" />
+      <option name="MAIN_CLASS_NAME" value="com.tyut.shopping_search_service.ShoppingSearchServiceApplicationTests" />
+      <option name="METHOD_NAME" value="testAnalyze" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingSearchServiceApplicationTests.testSyncGoodsToES" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shopping_search_service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tyut.shopping_search_service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tyut.shopping_search_service" />
+      <option name="MAIN_CLASS_NAME" value="com.tyut.shopping_search_service.ShoppingSearchServiceApplicationTests" />
+      <option name="METHOD_NAME" value="testSyncGoodsToES" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingAdminServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="shopping_admin_service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tyut.shopping_admin_service.ShoppingAdminServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingCartCustomerApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="shopping_cart_customer_api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tyut.shopping_cart_customer_api.ShoppingCartCustomerApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingCartServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="shopping_cart_service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tyut.shopping_cart_service.ShoppingCartServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingCategoryCustomerApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="shopping_category_customer_api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tyut.shopping_category_customer_api.ShoppingCategoryCustomerApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingCategoryServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="shopping_category_service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tyut.shopping_category_service.ShoppingCategoryServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingFileServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="shopping_file_service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tyut.shopping_file_service.ShoppingFileServiceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tyut.shopping_file_service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingGoodsServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="shopping_goods_service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tyut.shopping_goods_service.ShoppingGoodsServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingManagerApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="shopping_manager_api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tyut.shopping_manager_api.ShoppingManagerApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingMessageServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="shopping_message_service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tyut.shopping_message_service.ShoppingMessageServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingOrderCustomerApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="shopping_order_customer_api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tyut.shopping_order_customer_api.ShoppingOrderCustomerApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingOrderServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="shopping_order_service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tyut.shopping_order_service.ShoppingOrderServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingPayServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="shopping_pay_service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tyut.shopping_pay_service.ShoppingPayServiceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tyut.shopping_pay_service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingSearchCustomerApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="shopping_search_customer_api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tyut.shopping_search_customer_api.ShoppingSearchCustomerApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingSearchServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="shopping_search_service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tyut.shopping_search_service.ShoppingSearchServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingSeckillCustomerApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="shopping_seckill_customer_api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tyut.shopping_seckill_customer_api.ShoppingSeckillCustomerApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingSeckillServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="shopping_seckill_service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tyut.shopping_seckill_service.ShoppingSeckillServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingUserCustomerApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="shopping_user_customer_api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tyut.shopping_user_customer_api.ShoppingUserCustomerApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingUserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="shopping_user_service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tyut.shopping_user_service.ShoppingUserServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.ShoppingGoodsServiceApplicationTests.testFindAllGoodsDesc2" />
+      <item itemvalue="JUnit.ShoppingSearchServiceApplicationTests.testAnalyze" />
+      <item itemvalue="JUnit.ShoppingSearchServiceApplicationTests.testSyncGoodsToES" />
+      <item itemvalue="Spring Boot.ShoppingSeckillCustomerApiApplication" />
+      <item itemvalue="Spring Boot.ShoppingSeckillServiceApplication" />
+      <item itemvalue="Spring Boot.ShoppingCartServiceApplication" />
+      <item itemvalue="Spring Boot.ShoppingOrderCustomerApiApplication" />
+      <item itemvalue="Spring Boot.ShoppingOrderServiceApplication" />
+      <item itemvalue="Spring Boot.ShoppingCartCustomerApiApplication" />
+      <item itemvalue="Spring Boot.ShoppingAdminServiceApplication" />
+      <item itemvalue="Spring Boot.ShoppingCategoryServiceApplication" />
+      <item itemvalue="Spring Boot.ShoppingCategoryCustomerApiApplication" />
+      <item itemvalue="Spring Boot.ShoppingGoodsServiceApplication" />
+      <item itemvalue="Spring Boot.ShoppingManagerApiApplication" />
+      <item itemvalue="Spring Boot.ShoppingMessageServiceApplication" />
+      <item itemvalue="Spring Boot.ShoppingSearchServiceApplication" />
+      <item itemvalue="Spring Boot.ShoppingSearchCustomerApiApplication" />
+      <item itemvalue="Spring Boot.ShoppingUserServiceApplication" />
+      <item itemvalue="Spring Boot.ShoppingUserCustomerApiApplication" />
+      <item itemvalue="Spring Boot.ShoppingPayServiceApplication" />
+      <item itemvalue="Spring Boot.ShoppingFileServiceApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ShoppingFileServiceApplication" />
+        <item itemvalue="Spring Boot.ShoppingPayServiceApplication" />
+        <item itemvalue="JUnit.ShoppingGoodsServiceApplicationTests.testFindAllGoodsDesc2" />
+        <item itemvalue="JUnit.ShoppingSearchServiceApplicationTests.testSyncGoodsToES" />
+        <item itemvalue="JUnit.ShoppingSearchServiceApplicationTests.testAnalyze" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="bbaf8364-64d5-4b62-b924-993ec34a3b31" name="更改" comment="" />
+      <created>1699928824701</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699928824701</updated>
+      <workItem from="1717142831082" duration="2040000" />
+      <workItem from="1717160892555" duration="4566000" />
+      <workItem from="1717219867752" duration="671000" />
+      <workItem from="1717220560768" duration="6609000" />
+      <workItem from="1717306328056" duration="6896000" />
+      <workItem from="1717315816918" duration="886000" />
+      <workItem from="1717390844239" duration="4441000" />
+      <workItem from="1717503137873" duration="8398000" />
+      <workItem from="1717546090267" duration="12323000" />
+      <workItem from="1717580498656" duration="1115000" />
+      <workItem from="1717639504996" duration="733000" />
+      <workItem from="1717663579799" duration="3961000" />
+      <workItem from="1717718550029" duration="5342000" />
+      <workItem from="1718022674880" duration="4598000" />
+      <workItem from="1718064661094" duration="189000" />
+      <workItem from="1718064866781" duration="11318000" />
+      <workItem from="1718151950008" duration="1330000" />
+      <workItem from="1718162471161" duration="1862000" />
+      <workItem from="1718254423082" duration="2553000" />
+      <workItem from="1718580598664" duration="6195000" />
+      <workItem from="1718591749204" duration="1216000" />
+      <workItem from="1718601259328" duration="7355000" />
+      <workItem from="1718609525538" duration="4033000" />
+      <workItem from="1718681535641" duration="2642000" />
+      <workItem from="1718778434978" duration="9191000" />
+      <workItem from="1718788483986" duration="531000" />
+      <workItem from="1718799878734" duration="7231000" />
+      <workItem from="1718844180205" duration="11971000" />
+      <workItem from="1718865728958" duration="1565000" />
+      <workItem from="1718955219675" duration="10017000" />
+      <workItem from="1718971507462" duration="8616000" />
+      <workItem from="1719014546572" duration="3296000" />
+      <workItem from="1719017948254" duration="8497000" />
+      <workItem from="1719042526699" duration="10272000" />
+      <workItem from="1719118589250" duration="16327000" />
+      <workItem from="1719191952127" duration="438000" />
+      <workItem from="1719192427098" duration="699000" />
+      <workItem from="1719193391339" duration="5720000" />
+      <workItem from="1719361191369" duration="2901000" />
+      <workItem from="1719364149511" duration="7285000" />
+      <workItem from="1719465764917" duration="2471000" />
+      <workItem from="1719473788218" duration="2498000" />
+      <workItem from="1720139131243" duration="3683000" />
+      <workItem from="1720162352302" duration="290000" />
+      <workItem from="1720165604006" duration="396000" />
+      <workItem from="1720166283535" duration="2859000" />
+      <workItem from="1720224171266" duration="17812000" />
+      <workItem from="1720311810500" duration="15939000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/shopping_order_customer_api/src/main/java/com/tyut/shopping_order_customer_api/controller/OrdersController.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/shopping_manager_api/src/main/java/com/tyut/shopping_manager_api/controller/GoodsController.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/shopping_goods_service/src/main/java/com/tyut/shopping_goods_service/service/GoodsServiceImpl.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/shopping_order_service/src/main/java/com/tyut/shopping_order_service/service/OrdersServiceImpl.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.apache.tomcat.util.http.MimeHeaders" memberName="count" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>

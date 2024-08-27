@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MaterialThemeProjectNewConfig">
+    <option name="metadata">
+      <MTProjectMetadataState>
+        <option name="migrated" value="true" />
+        <option name="pristineConfig" value="false" />
+        <option name="userId" value="7ce44a48:18bfbf7a58f:-8000" />
+        <option name="version" value="8.12.6" />
+      </MTProjectMetadataState>
+    </option>
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/shopping_common/pom.xml" />
+        <option value="$PROJECT_DIR$/shopping_goods_service/pom.xml" />
+        <option value="$PROJECT_DIR$/shopping_manager_api/pom.xml" />
+        <option value="$PROJECT_DIR$/shopping_admin_service/pom.xml" />
+        <option value="$PROJECT_DIR$/shopping_file_service/pom.xml" />
+        <option value="$PROJECT_DIR$/shopping_category_service/pom.xml" />
+        <option value="$PROJECT_DIR$/shopping_category_customer_api/pom.xml" />
+        <option value="$PROJECT_DIR$/shopping_search_service/pom.xml" />
+        <option value="$PROJECT_DIR$/shopping_message_service/pom.xml" />
+        <option value="$PROJECT_DIR$/shopping_user_service/pom.xml" />
+        <option value="$PROJECT_DIR$/shopping_cart_customer_api/pom.xml" />
+        <option value="$PROJECT_DIR$/shopping_order_service/pom.xml" />
+        <option value="$PROJECT_DIR$/shopping_order_customer_api/pom.xml" />
+        <option value="$PROJECT_DIR$/shopping_pay_service/pom.xml" />
+        <option value="$PROJECT_DIR$/shopping_seckill_sservice/pom.xml" />
+        <option value="$PROJECT_DIR$/shopping_seckill_customer_api/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="corretto-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

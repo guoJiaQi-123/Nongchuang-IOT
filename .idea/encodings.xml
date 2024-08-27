@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/shopping_admin_service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping_admin_service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping_cart_customer_api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping_cart_customer_api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping_cart_service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping_cart_service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping_category_customer_api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping_category_customer_api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping_category_service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping_category_service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping_common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping_common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping_file_service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping_file_service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping_goods_service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping_goods_service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping_manager_api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping_manager_api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping_message_service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping_message_service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping_order_customer_api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping_order_customer_api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping_order_service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping_order_service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping_pay_service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping_pay_service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping_search_customer_api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping_search_customer_api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping_search_service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping_search_service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping_seckill_customer_api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping_seckill_customer_api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping_seckill_service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping_seckill_service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping_user_customer_api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping_user_customer_api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping_user_service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping_user_service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
