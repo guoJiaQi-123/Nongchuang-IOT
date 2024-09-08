@@ -16,6 +16,8 @@ import java.io.Serializable;
 @AllArgsConstructor
 @Builder
 public class Area implements Serializable{
+
+    
     @TableId
     private String id; // 区/县Id
     private String area; // 区/县名
