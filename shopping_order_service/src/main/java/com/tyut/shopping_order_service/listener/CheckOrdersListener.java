@@ -16,6 +16,7 @@ import org.springframework.stereotype.Service;
 @RocketMQMessageListener(topic = "check_orders_queue", consumerGroup = "check_orders_group")
 public class CheckOrdersListener implements RocketMQListener<String> {
 
+
     @Autowired
     private OrdersService ordersService;
 
