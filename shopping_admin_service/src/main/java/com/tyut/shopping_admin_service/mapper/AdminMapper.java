@@ -14,6 +14,7 @@ import java.util.List;
  */
 public interface AdminMapper extends BaseMapper<Admin> {
 
+
     /**
      * 删除管理员对应的所有角色
      * @param aid
