@@ -43,6 +43,8 @@ public class GoodsSearchController {
     }
 
 
+
+
     /**
      * 商品搜索
      * @param goodsSearchParam 搜索条件
@@ -54,6 +56,8 @@ public class GoodsSearchController {
         GoodsSearchResult goodsSearchResult = searchService.search(goodsSearchParam);
         return BaseResult.ok(goodsSearchResult);
     }
+
+    
 
     /**
      * 根据商品ID查询商品详情
