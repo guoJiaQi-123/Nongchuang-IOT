@@ -19,6 +19,7 @@ import java.io.IOException;
 public class FileController {
     @DubboReference
     private FileService fileService;
+    
 
     /**
    * 上传文件
