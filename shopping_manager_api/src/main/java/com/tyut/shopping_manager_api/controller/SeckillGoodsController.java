@@ -17,6 +17,7 @@ public class SeckillGoodsController {
     private SeckillGoodsService seckillGoodsService;
 
 
+
     /**
    * 添加秒杀商品
    * @param seckillGoods 秒杀商品实体
