@@ -17,6 +17,9 @@ import java.util.List;
 @RequestMapping("/permission")
 @Slf4j
 public class PermissionController {
+
+
+    
     @DubboReference
     private PermissionService permissionService;
 
