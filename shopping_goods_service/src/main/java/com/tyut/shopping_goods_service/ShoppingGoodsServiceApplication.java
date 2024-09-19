@@ -21,6 +21,7 @@ import org.springframework.context.annotation.Bean;
 public class ShoppingGoodsServiceApplication {
 
 
+
 	public static void main(String[] args) {
 		SpringApplication.run(ShoppingGoodsServiceApplication.class, args);
 		log.info("******************* 商品服务启动成功 *******************");
