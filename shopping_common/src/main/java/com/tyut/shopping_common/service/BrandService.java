@@ -50,6 +50,6 @@ public interface BrandService {
      * @param brand
      * @return
      */
-    Page<Brand> search(int page,int size,Brand brand);
+    Page<Brand> search(int page, int size, Brand brand);
 
 }
